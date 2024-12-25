@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "deba",
+      "password": "Maity@29",
+      "email": "john@example.com"
+    },
+    {
+      "id": 2,
+      "username": "jane_doe",
+      "password": "abcdef",
+      "email": "jane@example.com"
+    },
+    {
+      "id": 3,
+      "username": "sam_smith",
+      "password": "password123",
+      "email": "sam@example.com"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Shirt 1",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 2,
+      "name": "Shirt 2",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 3,
+      "name": "Shirt 3",
+      "type": "Clothing",
+      "source": "Flipkart"
+    },
+    {
+      "id": 4,
+      "name": "Shirt 4",
+      "type": "Clothing",
+      "source": "Myntra"
+    },
+    {
+      "id": 5,
+      "name": "Shirt 5",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 6,
+      "name": "Shirt 6",
+      "type": "Clothing",
+      "source": "Flipkart"
+    },
+    {
+      "id": 7,
+      "name": "Shirt 7",
+      "type": "Clothing",
+      "source": "Myntra"
+    },
+    {
+      "id": 8,
+      "name": "Shirt 8",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 9,
+      "name": "Shirt 9",
+      "type": "Clothing",
+      "source": "Flipkart"
+    },
+    {
+      "id": 10,
+      "name": "Shirt 10",
+      "type": "Clothing",
+      "source": "Myntra"
+    },
+    {
+      "id": 11,
+      "name": "Pant 1",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 12,
+      "name": "Pant 2",
+      "type": "Clothing",
+      "source": "Flipkart"
+    },
+    {
+      "id": 13,
+      "name": "Pant 3",
+      "type": "Clothing",
+      "source": "Myntra"
+    },
+    {
+      "id": 14,
+      "name": "Pant 4",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 15,
+      "name": "Pant 5",
+      "type": "Clothing",
+      "source": "Flipkart"
+    },
+    {
+      "id": 16,
+      "name": "Pant 6",
+      "type": "Clothing",
+      "source": "Myntra"
+    },
+    {
+      "id": 17,
+      "name": "Pant 7",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 18,
+      "name": "Pant 8",
+      "type": "Clothing",
+      "source": "Flipkart"
+    },
+    {
+      "id": 19,
+      "name": "Pant 9",
+      "type": "Clothing",
+      "source": "Myntra"
+    },
+    {
+      "id": 20,
+      "name": "Pant 10",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 21,
+      "name": "Mobile 1",
+      "type": "Electronics",
+      "source": "Amazon"
+    },
+    {
+      "id": 22,
+      "name": "Mobile 2",
+      "type": "Electronics",
+      "source": "Flipkart"
+    },
+    {
+      "id": 23,
+      "name": "Mobile 3",
+      "type": "Electronics",
+      "source": "Myntra"
+    },
+    {
+      "id": 24,
+      "name": "Mobile 4",
+      "type": "Electronics",
+      "source": "Amazon"
+    },
+    {
+      "id": 25,
+      "name": "Mobile 5",
+      "type": "Electronics",
+      "source": "Flipkart"
+    },
+    {
+      "id": 26,
+      "name": "Mobile 6",
+      "type": "Electronics",
+      "source": "Myntra"
+    },
+    {
+      "id": 27,
+      "name": "Mobile 7",
+      "type": "Electronics",
+      "source": "Amazon"
+    },
+    {
+      "id": 28,
+      "name": "Mobile 8",
+      "type": "Electronics",
+      "source": "Flipkart"
+    },
+    {
+      "id": 29,
+      "name": "Mobile 9",
+      "type": "Electronics",
+      "source": "Myntra"
+    },
+    {
+      "id": 30,
+      "name": "Mobile 10",
+      "type": "Electronics",
+      "source": "Amazon"
+    }
+  ],
+  "cart": [
+    {
+      "id": 5,
+      "name": "Shirt 5",
+      "type": "Clothing",
+      "source": "Amazon"
+    },
+    {
+      "id": 11,
+      "name": "Pant 1",
+      "type": "Clothing",
+      "source": "Amazon"
+    }
+  ],
+  "orders": []
+}
