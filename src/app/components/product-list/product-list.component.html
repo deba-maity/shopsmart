@@ -1,0 +1,29 @@
+<div class="filter-container">
+  <mat-form-field appearance="fill">
+    <mat-label>Source</mat-label>
+    <mat-select [(value)]="selectedSource">
+      <mat-option value="">All</mat-option>
+      <mat-option value="Amazon">Amazon</mat-option>
+      <mat-option value="Flipkart">Flipkart</mat-option>
+      <mat-option value="Myntra">Myntra</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Type</mat-label>
+    <mat-select [(value)]="selectedType">
+      <mat-option value="">All</mat-option>
+      <mat-option value="Clothing">Clothing</mat-option>
+      <mat-option value="Electronics">Electronics</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<div class="product-grid">
+  <mat-card *ngFor="let product of filteredProducts" class="product-card">
+    <h3 class="product-name">{{ product.name }}</h3>
+    <p class="product-details">Type: {{ product.type }}</p>
+    <p class="product-details">Source: {{ product.source }}</p>
+    <button mat-raised-button color="primary" (click)="addToCart(product)">Add to Cart</button>
+    <button mat-raised-button color="accent" (click)="viewDetails(product)">View Details</button>
+  </mat-card>
+</div>

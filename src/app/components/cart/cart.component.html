@@ -1,0 +1,17 @@
+<h2>Your Cart</h2>
+
+<div *ngIf="cartItems.length === 0">
+  <p>Your cart is empty.</p>
+</div>
+
+<div class="cart-items" *ngFor="let item of cartItems">
+  <mat-card class="cart-item">
+    <h3>{{ item.productName }}</h3>
+    <p>Source: {{ item.source }}</p>
+    <!-- <button mat-raised-button color="warn" (click)="clearCart(item.id)">Remove</button> -->
+  </mat-card>
+</div>
+
+<div>
+  <button mat-raised-button color="primary" (click)="placeOrder()">Order Now</button>
+</div>
