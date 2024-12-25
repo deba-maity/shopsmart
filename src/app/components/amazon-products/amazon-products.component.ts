@@ -29,7 +29,13 @@ export class AmazonProductsComponent implements OnInit {
     );
   }
 
-  amazon(){
+  satoo(){
     window.location.href = 'https://www.amazon.in/Ganesh-protein-natural-gluten-roasted/dp/B0DJ32ZVYJ/ref=sr_1_5?sr=8-5';
+  }
+  lotee(){
+    window.location.href = 'https://www.amazon.in/Lotte-Choco-Pie-Pack-336g/dp/B0152RPOTC/ref=sr_1_5_mod_primary_new?nsdOptOutParam=true&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-5'
+  }
+  muri(){
+    window.location.href = 'https://www.amazon.in/Organic-Tattva-100-Puffed-Rice/dp/B0DGXZM44L/ref=sr_1_1_f3_0o_fs_sspa?nsdOptOutParam=true&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1'
   }
 }
